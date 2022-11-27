@@ -1,0 +1,16 @@
+name: Randomtp
+version: '${project.version}'
+main: com.kamesuta.randomtp.Randomtp
+api-version: 1.19
+
+commands:
+  randomtp:
+    description: Teleports you to a random location
+    usage: /randomtp
+    aliases: [ rtp ]
+    permission: randomtp.randomtp
+
+permissions:
+  randomtp.randomtp:
+    description: Allows you to use /randomtp
+    default: true
